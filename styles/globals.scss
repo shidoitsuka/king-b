@@ -1,0 +1,61 @@
+@import "fonts";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  // border: 1px solid red;
+  @apply duration-500 ease-out;
+}
+
+@layer components {
+  .burger-bg {
+    background-image: url(/burger.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 50%;
+    background-attachment: fixed;
+  }
+  .bg-glass {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+  body {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 20px;
+    @apply bg-gray-200 text-primary;
+    .desc {
+      font-family: 'Itim', cursive;
+    }
+    .btn-primary {
+      font-family: 'Itim', cursive;
+      @apply bg-primary px-3 py-1 border border-primary text-gray-100 rounded-lg;
+      &:hover {
+        @apply bg-gray-100 text-primary;
+      }
+    }
+  }
+  a {
+    &:hover {
+      @apply border-b border-primary;
+    }
+  }
+  img {
+    &.responsive {
+      @apply w-full h-full object-cover rounded-xl;
+    }
+  }
+  section {
+    @apply mb-10;
+    &:last-child {
+      @apply pb-10;
+    }
+    &.banner {
+      @apply h-[50vh] bg-red-300 w-full flex overflow-scroll snap-x snap-mandatory;
+      img {
+        @apply w-full h-full object-cover shrink-0 snap-center;
+      }
+    }
+  }
+}
