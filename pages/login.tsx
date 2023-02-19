@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const Login = () => {
   return (
     <main className="w-full mt-10">
@@ -19,10 +20,10 @@ const Login = () => {
               Enjoy <span className="text-primary">exclusive deals</span> by becoming a member!
             </p>
             <div className="w-full h-56 overflow-scroll flex snap-x snap-mandatory rounded-lg">
-              <img src="https://picsum.photos/600/1306" className="w-full h-full object-cover shrink-0 snap-center" />
-              <img src="https://picsum.photos/600/1307" className="w-full h-full object-cover shrink-0 snap-center" />
-              <img src="https://picsum.photos/600/1308" className="w-full h-full object-cover shrink-0 snap-center" />
-              <img src="https://picsum.photos/600/1309" className="w-full h-full object-cover shrink-0 snap-center" />
+              <img src="https://picsum.photos/600/1306" className="w-full h-full object-cover shrink-0 snap-center" alt="Deals" />
+              <img src="https://picsum.photos/600/1307" className="w-full h-full object-cover shrink-0 snap-center" alt="Deals" />
+              <img src="https://picsum.photos/600/1308" className="w-full h-full object-cover shrink-0 snap-center" alt="Deals" />
+              <img src="https://picsum.photos/600/1309" className="w-full h-full object-cover shrink-0 snap-center" alt="Deals" />
             </div>
           </div>
         </div>

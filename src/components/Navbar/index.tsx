@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Navbar = () => {
