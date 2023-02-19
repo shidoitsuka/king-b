@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 const Home = () => {
   return (
     <main className="burger-bg bg-gray-200 relative z-10 mb-52 md:mb-44">

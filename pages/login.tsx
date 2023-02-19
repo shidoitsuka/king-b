@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 const Login = () => {
   return (
     <main className="w-full mt-10">
